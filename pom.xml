@@ -51,6 +51,7 @@
                     <doUpdate>true</doUpdate>
                     <revisionOnScmFailure>true</revisionOnScmFailure>
                     <username>sauloaalmeida</username>
+                    <shortRevisionLength>5</shortRevisionLength>
                 </configuration>
             </plugin>
             <plugin>
@@ -63,7 +64,7 @@
                             <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
                         </manifest>
                         <manifestEntries>
-                            <Implementation-Build>${buildNumber}</Implementation-Build>
+                            <git-SHA-1>${buildNumber}</git-SHA-1>
                         </manifestEntries>
                     </archive>
                 </configuration>
