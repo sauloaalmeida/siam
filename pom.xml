@@ -51,7 +51,6 @@
                     <revisionOnScmFailure>true</revisionOnScmFailure>
                     <getRevisionOnlyOnce>true</getRevisionOnlyOnce>
                     <username>sauloaalmeida</username>
-                    <shortRevisionLength>5</shortRevisionLength>
                 </configuration>
             </plugin>
             <plugin>
