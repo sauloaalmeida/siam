@@ -49,6 +49,7 @@
                     <doCheck>true</doCheck>
                     <doUpdate>true</doUpdate>
                     <revisionOnScmFailure>true</revisionOnScmFailure>
+                    <username>sauloaalmeida</username>
                 </configuration>
             </plugin>
             <plugin>
