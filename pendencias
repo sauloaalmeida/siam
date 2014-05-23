@@ -1,8 +1,9 @@
 Build number plugin - OK
+cloudbees para CI - OK
+cloudbees para deploy em rep maven - OK
 configurar spring
 estrutura de internacionalizacao usando spring
-generate site
-cloudbees para deploy em rep maven
+generate site maven
 cloudbees para continous delivery
 classes de excecao internacionalizadas
 testes das classes de excecao
