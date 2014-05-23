@@ -1,4 +1,4 @@
-package br.com.petrobras.iam.entity;
+package org.siam.entity;
 
 /**
  * Created by up23 on 5/13/14.

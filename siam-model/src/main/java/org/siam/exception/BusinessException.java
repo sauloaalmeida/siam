@@ -1,4 +1,4 @@
-package br.com.petrobras.iam.exception;
+package org.siam.exception;
 
 public class BusinessException extends SIAMException {
 

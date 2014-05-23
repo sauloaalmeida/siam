@@ -1,4 +1,4 @@
-package br.com.petrobras.iam.exception;
+package org.siam.exception;
 
 public abstract class SIAMException extends RuntimeException{
 

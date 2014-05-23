@@ -1,6 +1,6 @@
-package br.com.petrobras.iam.entity;
+package org.siam.entity;
 
-import br.com.petrobras.iam.exception.BusinessException;
+import org.siam.exception.BusinessException;
 
 /**
  * Created by up23 on 5/13/14.

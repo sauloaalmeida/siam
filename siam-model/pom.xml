@@ -2,7 +2,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>br.com.petrobras.iam</groupId>
+  <groupId>org.siam</groupId>
   <artifactId>siam-model</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <packaging>jar</packaging>
@@ -10,7 +10,7 @@
   <name>siam-model</name>
   
     <parent>
-        <groupId>br.com.petrobras.iam</groupId>
+        <groupId>org.siam</groupId>
         <artifactId>siam-parent</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>  
