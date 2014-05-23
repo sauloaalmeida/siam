@@ -17,7 +17,6 @@
         <snapshotRepository>
             <id>siam-cloudbees-snapshot</id>
             <name>siam-cloudbees-snapshot</name>
-            <uniqueVersion>false</uniqueVersion>
             <url>https://repository-siam.forge.cloudbees.com/snapshot/</url>
         </snapshotRepository>
     </distributionManagement>
