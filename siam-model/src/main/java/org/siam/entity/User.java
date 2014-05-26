@@ -2,13 +2,11 @@ package org.siam.entity;
 
 import org.siam.exception.BusinessException;
 
-/**
- * Created by up23 on 5/13/14.
- */
 public class User implements Identity {
 
     private long id;
     private String name;
+    private  static final long serialVersionUID = 546475l;
 
     public User (long id){
         this.id = id;
@@ -30,6 +28,6 @@ public class User implements Identity {
     }
 
     public String getName(){
-        return getName();
+        return name;
     }
 }

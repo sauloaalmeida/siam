@@ -1,8 +1,7 @@
 package org.siam.entity;
 
-/**
- * Created by up23 on 5/13/14.
- */
-public interface Identity {
+import java.io.Serializable;
+
+public interface Identity  extends Serializable{
     public long getId();
 }
