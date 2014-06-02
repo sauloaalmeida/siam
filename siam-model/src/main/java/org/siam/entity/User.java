@@ -1,5 +1,6 @@
 package org.siam.entity;
 
+import org.apache.commons.lang3.StringUtils;
 import org.siam.exception.BusinessException;
 
 public class User implements Identity {
@@ -14,7 +15,7 @@ public class User implements Identity {
 
     public User(long id, String name) {
 
-        if(name==null || "".equals(name.trim())){
+        if( StringUtils.isEmpty( name ) ){
             throw new BusinessException("mandatory.argument","Name");
         }
 
